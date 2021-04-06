@@ -17,6 +17,7 @@ class Table extends React.Component {
     componentDidMount() {
         axios.get("https://randomuser.me")
         .then((res) => {
+            console.log(res);
             this.setState({ users: });
         })
     }
